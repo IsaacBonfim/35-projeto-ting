@@ -9,7 +9,7 @@ def exists_word(word, instance):
 
         for index in range(len(lines)):
             if word.lower() in lines[index].lower():
-                found.append(index +1)
+                found.append(index + 1)
 
         if len(found):
             words_list.append({
